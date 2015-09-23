@@ -145,7 +145,7 @@ WHITE = (255, 255, 255)
 GREY = (140, 140, 140)
 
 pygame.init()
-win = pygame.display.set_mode((1200, 680))
+win = pygame.display.set_mode((0, 0), FULLSCREEN)
 font = pygame.font.Font("freesansbold.ttf", 16)
 font_petite = pygame.font.Font("freesansbold.ttf", 11)
 
